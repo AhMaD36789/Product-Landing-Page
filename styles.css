@@ -1,0 +1,162 @@
+@media (MAX-WIDTH:750px){
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav-bar{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #123;
+    color: aliceblue;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#header .nav-link{
+    text-decoration: none;
+    line-height: 5;
+    font-weight: 155;
+    color: aliceblue;
+}
+#header a:hover {
+    
+    color: aqua !important;
+}
+#header p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.img-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 30%;
+    max-height: 30%;
+    top: 0;
+    left: 0;
+
+}
+.img-header p {
+    margin-left: 10px;
+}
+.img-header img{
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 70px;
+}
+
+#header .nav-link:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    color:#123;
+}
+
+#form{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+}
+#form #email{
+    height: 2rem;
+    width: 30%;
+}
+#form #submit{
+    height: 2.3rem;
+    width: 50px;
+    background-color: #123;
+    color:aliceblue
+}
+
+#Features{
+    
+    margin: 20px;
+    font-weight:500;
+}
+#Features li{
+    list-style:none;
+    font-size: 1.3rem;
+    color: #123;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .card{
+    width: 30%;
+    text-align: center;
+    padding:30px ;
+    margin-bottom: 30px;
+
+  }
+  .card:hover{
+    box-shadow: 0 10px 20px 3px rgba(17,34,51,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  .card img{
+    width: 50%;
+  }
+  .card-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .container button{
+    min-width: 6rem;
+    height: 2rem;
+    background-color: #123;
+    color:aliceblue;
+  }
+  
+  .footer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:123;
+
+  }
+  .footer-copyright{
+    text-align: center;
+    color:#123
+  }
